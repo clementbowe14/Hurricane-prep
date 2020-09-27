@@ -5,5 +5,4 @@ import requests
 app = Flask(__name__)
 @app.route("/", methods=['GET'])
 def retrieve():
-    print(results())
     return render_template('index.html')
